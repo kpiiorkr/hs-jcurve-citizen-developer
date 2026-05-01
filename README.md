@@ -2,6 +2,17 @@
 
 **A Study on Mitigating the Learning J-curve in Digital Tool Education for Non-major Learners Using Harmony Search Algorithm**
 
+강승원1, 조남호
+Seung Won Kang, 
+
+1중앙정보기술인재개발원 교육컨설팅본부장
+E-mail: data@gachon.ac.kr
+
+2
+E-mail: 
+
+---
+
 ## Abstract
 
 본 연구는 비전공 학습자가 KNIME, Power Automate 등 노코드(No-code) 기반 디지털 도구를 학습하는 과정에서 나타나는 학습 정체 현상인 J-커브(J-curve)를 완화하기 위한 최적화 프레임워크를 제안한다. 시민개발자(Citizen Developer) 양성 교육의 확산에도 불구하고, 비전공 학습자는 복합 로직 설계 단계에서 급격한 인지 부하 상승과 학습 의욕 저하를 경험하며, 이에 대한 체계적 연구는 부재하다.
