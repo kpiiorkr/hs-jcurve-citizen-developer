@@ -2,14 +2,14 @@
 
 **A Study on Mitigating the Learning J-curve in Digital Tool Education for Non-major Learners Using Harmony Search Algorithm**
 
-강승원1, 조남호
-Seung Won Kang, 
+강승원1, 조남호2
+Seung Won Kang, Nam Ho Cho
 
-1중앙정보기술인재개발원 교육컨설팅본부장
+1 가천대학교 스마트시티융합공학과 박사과정
 E-mail: data@gachon.ac.kr
 
-2
-E-mail: 
+2 Design Project Manager The University of Iowa
+E-mail: namhcho@uiowa.edu
 
 ---
 
