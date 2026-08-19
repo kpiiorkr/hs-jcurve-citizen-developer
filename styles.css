@@ -1,0 +1,40 @@
+:root {
+  --bg: #0b1020;
+  --card: #121a33;
+  --text: #eaf0ff;
+  --muted: #b6c2e2;
+  --accent: #4ea1ff;
+  --accent-2: #1e7cff;
+  --line: rgba(255,255,255,.12);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #08101f 0%, #0b1020 100%);
+}
+a { color: inherit; text-decoration: none; }
+.container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+.site-header { position: sticky; top: 0; background: rgba(8,16,31,.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); z-index: 10; }
+.header-inner { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; gap: 16px; }
+.brand { font-weight: 700; }
+.nav { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.hero, .section { padding: 72px 0; }
+.hero-grid, .content-grid, .cards { display: grid; gap: 24px; }
+.hero-grid { grid-template-columns: 1.4fr .9fr; align-items: center; }
+.content-grid, .cards { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.eyebrow { color: var(--accent); font-size: .9rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin: .2em 0 .4em; line-height: 1.1; }
+h2 { margin-top: 0; }
+.lead { color: var(--muted); font-size: 1.05rem; line-height: 1.7; max-width: 60ch; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.cta, .card a { display: inline-flex; align-items: center; justify-content: center; padding: 12px 18px; border-radius: 999px; background: var(--accent-2); font-weight: 700; }
+.cta.secondary { background: transparent; border: 1px solid var(--line); }
+.cta.ghost { background: transparent; border: 1px solid var(--line); }
+.hero-card, .card { background: rgba(18,26,51,.9); border: 1px solid var(--line); border-radius: 20px; padding: 24px; box-shadow: 0 16px 40px rgba(0,0,0,.2); }
+ul { color: var(--muted); line-height: 1.8; padding-left: 18px; }
+@media (max-width: 760px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .header-inner { align-items: flex-start; flex-direction: column; }
+}
